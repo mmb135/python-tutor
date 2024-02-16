@@ -11,7 +11,8 @@
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/ab0f6b5f-9128-4b62-9b3a-820778102a2e)
 
 #
-![image](https://github.com/mmb135/python_tutor/assets/156198133/609b9e5e-5a29-4600-8d29-3b8b18fa79b2)
+![image](https://github.com/mmb135/python_tutor/assets/156198133/4b6bace5-8568-4793-87d1-6e8678163fe5)
+
 
 #
 教材选用
