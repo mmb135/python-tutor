@@ -24,22 +24,22 @@
 
 
 
-## 创建conda环境
+### 创建conda环境
 
-### 1.安装
+#### 1.安装
 ~~~
 pip install xtuner
 ~~~
 
-### 2.挑选配置模板
+#### 2.挑选配置模板
 ~~~
 xtuner list-cfg -p internlm_20b
 ~~~
-### 3.一键训练
+#### 3.一键训练
 ~~~
 xtuner train internlm_20b_qlora_oasst1_512_e3
 ~~~
-### 4.config命名规则
+#### 4.config命名规则
 
 模型名 internlm_20b  无chat代表时基座模型
 使用算法 qlora
@@ -49,43 +49,43 @@ Epoch e3,epoch3
 
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/459eeed1-50b5-418c-9c1c-ffa77694a294)
 
-## 自定义训练
+### 自定义训练
 
-### 1.拷贝配置模板
+#### 1.拷贝配置模板
 ~~~
 xtuner copy-cfg internlm_20b-qlora_oasst1_512_e3 ./
 ~~~
-### 2.修改配置模板
+#### 2.修改配置模板
 ~~~
 vi internlm_20b_qlora_oasst1_512_e3_copy.py
 ~~~
-### 3.启动训练
+#### 3.启动训练
 xutner train internlm_20b_qlora_oasst1_512_e3_copy.py
 
-## 对话
-### Folat 16模型对话
+### 对话
+#### Folat 16模型对话
 ~~~
 xtuner chat internlm/internlm-chat-20b
 ~~~
-### 4bit模型对话
+#### 4bit模型对话
 ~~~
 xtuner chat internlm/internlm-chat-20b --bits4
 ~~~
-#   加载Adapter模型对话
+####   加载Adapter模型对话
 ~~~
 xtuner chat internlm/internlm-chat-20b --adapater $ADAPTER_DIR
 ~~~
 
-## XTuner数据引擎
-### 1.拷贝配置模板
+### XTuner数据引擎
+#### 1.拷贝配置模板
 ~~~
 xtuner copy-cfg internlm_20b_qlora_alpaca_e3 ./
 ~~~
-### 2.修改配置模板
+#### 2.修改配置模板
 ~~~
 vi internlm_20b_qlora_alpaca_e3_copy.py
 ~~~
-### 3.启动训练
+#### 3.启动训练
 ~~~
 xtuner train internlm_20b_qlora_alpaca_e3_copy.py
 ~~~
