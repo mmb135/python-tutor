@@ -6,7 +6,6 @@
 #
 这里是Python_1+x职业技能等级证书考试的助教大模型。
 #
-![image](https://github.com/mmb135/python_tutor/assets/156198133/8995537c-9ca1-4272-8371-88679396650b)
 
 
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/799122b6-cc55-437a-9637-ad99d13a531f)
@@ -17,3 +16,6 @@
 
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/609b9e5e-5a29-4600-8d29-3b8b18fa79b2)
 
+#
+
+![image](https://github.com/mmb135/python_tutor/assets/156198133/8995537c-9ca1-4272-8371-88679396650b)
