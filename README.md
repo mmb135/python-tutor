@@ -24,7 +24,7 @@
 
 
 
-##创建conda环境
+## 创建conda环境
 
 1.安装
 ~~~
@@ -49,7 +49,7 @@ Epoch e3,epoch3
 
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/459eeed1-50b5-418c-9c1c-ffa77694a294)
 
-##自定义训练
+## 自定义训练
 
 1.拷贝配置模板
 ~~~
@@ -61,6 +61,20 @@ vi internlm_20b_qlora_oasst1_512_e3_copy.py
 ~~~
 3.启动训练
 xutner train internlm_20b_qlora_oasst1_512_e3_copy.py
+
+## 对话
+Folat 16模型对话
+~~~
+xtuner chat internlm/internlm-chat-20b
+~~~
+4bit模型对话
+~~~
+xtuner chat internlm/internlm-chat-20b --bits4
+~~~
+加载Adapter模型对话
+~~~
+xtuner chat internlm/internlm-chat-20b --adapater $ADAPTER_DIR
+~~~
 
 
 
