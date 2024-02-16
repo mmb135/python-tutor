@@ -30,7 +30,7 @@
 ~~~
 pip install xtuner
 ~~~
-#
+
 2.挑选配置模板
 ~~~
 xtuner list-cfg -p internlm_20b
