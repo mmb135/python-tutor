@@ -45,6 +45,7 @@ xtuner train internlm_20b_qlora_oasst1_512_e3
 数据集 oasst1
 数据长度 512
 Epoch e3,epoch3
+
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/459eeed1-50b5-418c-9c1c-ffa77694a294)
 
 ##自定义训练
