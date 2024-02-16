@@ -23,7 +23,7 @@ XTuner微调采用QLoRA，使用 OpenCompass 评测其性能。
 
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/8995537c-9ca1-4272-8371-88679396650b)
 
-#
+# 本着“先有后优”开发原则
 版本 | 内容  | 
 ---- | ----- |   
 单元格内容 | 单元格内容 |  
