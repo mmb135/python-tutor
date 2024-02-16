@@ -23,14 +23,44 @@
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/8995537c-9ca1-4272-8371-88679396650b)
 
 
-XTuner微调
+
+##创建conda环境
 1.安装
+~~~
 pip install xtuner
+~~~
 #
 2.挑选配置模板
+~~~
 xtuner list-cfg -p internlm_20b
-
 ~~~
-
-pip
+3.一键训练
 ~~~
+xtuner train internlm_20b_qlora_oasst1_512_e3
+~~~
+4.config命名规则
+模型名 internlm_20b  无chat代表时基座模型
+使用算法 qlora
+数据集 oasst1
+数据长度 512
+Epoch e3,epoch3
+![image](https://github.com/mmb135/python_tutor/assets/156198133/459eeed1-50b5-418c-9c1c-ffa77694a294)
+
+##自定义训练
+1.拷贝配置模板
+~~~
+xtuner copy-cfg internlm_20b-qlora_oasst1_512_e3 ./
+~~~
+2.修改配置模板
+~~~
+vi internlm_20b_qlora_oasst1_512_e3_copy.py
+~~~
+3.启动训练
+xutner train internlm_20b_qlora_oasst1_512_e3_copy.py
+
+
+
+
+
+
+
