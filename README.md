@@ -25,6 +25,7 @@
 
 
 ##创建conda环境
+
 1.安装
 ~~~
 pip install xtuner
