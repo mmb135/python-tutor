@@ -1,6 +1,7 @@
 # python_1+X 职业技能等级证书
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/0687bb98-5e9b-46a3-a9ed-9d1ff0dc4d08)
-![image](https://github.com/mmb135/python_tutor/assets/156198133/71baf781-9f92-4cdf-999d-47e81cab9ead)
+![image](https://github.com/mmb135/python_tutor/assets/156198133/36106a77-8b80-4be7-9710-caaeec0e7734)
+
 
 #
 #
