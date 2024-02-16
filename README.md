@@ -39,6 +39,7 @@ xtuner list-cfg -p internlm_20b
 xtuner train internlm_20b_qlora_oasst1_512_e3
 ~~~
 4.config命名规则
+
 模型名 internlm_20b  无chat代表时基座模型
 使用算法 qlora
 数据集 oasst1
