@@ -47,6 +47,7 @@ Epoch e3,epoch3
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/459eeed1-50b5-418c-9c1c-ffa77694a294)
 
 ##自定义训练
+
 1.拷贝配置模板
 ~~~
 xtuner copy-cfg internlm_20b-qlora_oasst1_512_e3 ./
