@@ -1,6 +1,5 @@
 # Python_1+X 职业技能等级证书助教大语言模型
-![image](https://github.com/mmb135/python_tutor/assets/156198133/0687bb98-5e9b-46a3-a9ed-9d1ff0dc4d08)
-![image](https://github.com/mmb135/python_tutor/assets/156198133/36106a77-8b80-4be7-9710-caaeec0e7734)
+
 
 
 #
