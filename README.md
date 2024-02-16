@@ -23,3 +23,11 @@
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/8995537c-9ca1-4272-8371-88679396650b)
 
 
+XTuner微调
+1.安装
+pip install xtuner
+#
+2.挑选配置模板
+xtuner list-cfg -p internlm_20b
+
+~“pip
