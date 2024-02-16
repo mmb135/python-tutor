@@ -4,8 +4,7 @@
 主要用于职业院校考取中慧云启的Python_1+x职业技能等级证书的考题解答和咨询。😊  
 这里面包含问答题的源码、模拟题答案详解，以及考核标准的解读。  
  
-以InternLM2-Chat-7b为基座模型，在A100 (1/4)上进行训练，RAG的LangChain框架，增强生成外挂等级模拟题知识库，进行Finetune指令微调。
-XTuner微调采用QLoRA，使用 OpenCompass 评测其性能。
+
 #
 
 
@@ -23,8 +22,4 @@ XTuner微调采用QLoRA，使用 OpenCompass 评测其性能。
 
 ![image](https://github.com/mmb135/python_tutor/assets/156198133/8995537c-9ca1-4272-8371-88679396650b)
 
-### 本着“先有后优”开发原则
-版本 | 内容  | 
----- | ----- |   
-单元格内容 | 单元格内容 |  
-单元格内容 | 单元格内容 |  
+
